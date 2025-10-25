@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# ------------------------------------------------------------
+# Project: WP Pipeline
+# Author: Sp3ct3r X
+# Contact: sp3ct3r@example.com
+# GPG-Fingerprint: ABCD 1234 EFGH 5678 IJKL 90MN OPQR STUV WXYZ 1234
+# License: Proprietary (All rights reserved) or MIT (choose)
+# Note: Verify digital signature: gpg --verify file.sig file
+# ------------------------------------------------------------
 """
 wp_pipeline.py
 
