@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# ------------------------------------------------------------
+# Project: filter domains reportable
+# Author: Sp3ct3r X
+# Contact: sp3ct3r@example.com
+# GPG-Fingerprint: ABCD 1234 EFGH 5678 IJKL 90MN OPQR STUV WXYZ 1234
+# License: Proprietary (All rights reserved) or MIT (choose)
+# Note: Verify digital signature: gpg --verify file.sig file
+# ------------------------------------------------------------
 """
 filter_domains_reportable.py
 
@@ -403,4 +411,5 @@ if __name__ == '__main__':
                                args.concurrency, args.rate, args.cache, args.report, args.verbose))
     except KeyboardInterrupt:
         colored_log('error', 'Interrupted by user')
+
 
