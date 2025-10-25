@@ -146,7 +146,7 @@ CI/CD Testing	🔲
 For authorized use only.
 شرایط همکاری تجاری از طریق درخواست رسمی:
 
-📩 sp3ct3r@example.com
+📩 sp3ct3r.x@proton.me
 
 
 📌 Iran / EU — Available for cybersecurity consulting
