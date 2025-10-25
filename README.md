@@ -73,6 +73,7 @@ Detection is considered **valid** only if ≥ 2 indicators match:
 git clone https://github.com/<YOUR-USERNAME>/wp-recon-pipeline.git
 cd wp-recon-pipeline
 pip install -r requirements.txt
+```
 
 ▶️ Usage
 1️⃣ Extract clean domains from credential data
