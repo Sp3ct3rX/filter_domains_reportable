@@ -1,0 +1,15 @@
+we have two main python file
+
+for first one : wp_pipleline.py {
+    first you should clean your dirty data :[
+        python3 wp_pipeline.py preprocess --input big_input.txt --out domains_uniq.txt --dedupe
+    ],
+    then find wordpress signs :[
+        python3 wp_pipeline.py detect --input domains_uniq.txt --out wp_urls.txt --db wp_cache.db --concurrency 40 --rate 8 --timeout 10 --limit 2000 --max-input 2000 --verbose
+    ],
+    
+}
+
+then :{
+    python filter_domains_reportable.py --input wp_urls.txt --apikey $KEY --concurrency 60 --rate 12 --cache cache.db --report report.html --verbose
+}
